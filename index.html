@@ -308,7 +308,26 @@ tbody tr:hover{background:var(--bg3)}
 </style>
 </head>
 <body>
-
+	
+<!-- NAV -->
+<nav class="nav" aria-label="Главная навигация">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">
+      <span class="nav-logo-flag" aria-hidden="true"></span>
+      <span>VPS·BY</span>
+    </a>
+    <button class="burger" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Меню"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
+      <li><a href="#rating">Рейтинг</a></li>
+      <li><a href="#details">Сравнение</a></li>
+      <li><a href="#hosting">Хостинг сайтов</a></li>
+      <li><a href="#vpn">VPN</a></li>
+      <li><a href="#payment">Оплата</a></li>
+      <li><a href="#guide">Как выбрать</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+  </div>
+</nav>
 
 <!-- HERO -->
 <header class="hero" id="top">
